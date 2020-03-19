@@ -1,4 +1,8 @@
 /* Base */
+
+  html {
+    overflow-x: hidden;
+}
 body {
   line-height: 1.7;
   color: gray;
@@ -46,6 +50,8 @@ p.ikhokha-custom-btn.aos-init.aos-animate {
 p.mb-4.white-p.aos-init.aos-animate {
   color: #ececec;
   line-height: 22px;
+  font-size: 15px;
+
 }
 
 span.buy-now-text {
@@ -85,8 +91,28 @@ h3.product-item a {
 
 hr.customize-underline {
   max-width: 330px;
-  text-align: 3px!important;
-  color: #ffcd00;
+  text-align: left!important;
+  border-color: #ffcd00;
+  border-width: 3px;
+}
+
+i.fa.fa-users {
+    padding-left: 13px;
+    padding-top: 12px;
+    color: #ffffffff;
+    position: relative;
+}
+
+a.carousel-control-next {
+  background-color:#000000;
+  height: 71px;
+  width: 71px;
+}
+a.carousel-control-prev {
+  background-color: #000000;
+  height: 71px;
+  width: 71px;
+
 }
 
 
@@ -234,6 +260,19 @@ footer.footer-section.bg-light-gray {
 
 .col-lg-4.text-center.mr-auto.order-2.order-lg-1.aos-init.aos-animate img{
   margin-bottom: 40px;
+}
+
+.slide-1.reviews {
+    background-image: url('images/ourcust.jpg');
+    height: 300px;
+}
+
+.checked {
+  color: orange;
+}
+
+col-lg-4.text-center.mr-auto.order-2.order-lg-1.aos-init.our-reviews.sales-section-text.aos-animate {
+  text-align: left!important;
 }
 
 .border-2 {
@@ -896,7 +935,12 @@ footer.footer-section.bg-light-gray {
   position: relative; }
   @media (max-width: 991.98px) {
     .site-section {
-      padding: 4em 0; } }
+      padding: 4em 0;
+     } 
+     a.btn.btn-primary.py-3.px-5.btn-pill.request-a-cal-btn {
+      margin-top: 30px;
+  }
+    }
 
 .cta a span {
   border-color: #7971ea;
@@ -1344,3 +1388,76 @@ footer.footer-section.bg-light-gray {
         .comment-list li .comment-body .reply:hover {
           color: #000;
           background: #e3e3e3; }
+
+          @media only screen and (min-width: 320px) and (max-width: 479px){ 
+
+
+            a.btn.btn-primary.py-3.px-5.btn-pill.get-a-card-machine-btn {
+              margin-left: 71px;
+            }
+
+            a.btn.btn-primary.py-3.px-5.btn-pill.request-a-cal-btn {
+              margin-left: 71px;
+            }
+
+            .img-fluid.aos-init.aos-animate {
+              padding-left: 68px;
+            }
+
+            p.mb-4.yellow-heading.aos-init.aos-animate {
+              text-align: center;
+            }
+
+            .mb-4.white-p.aos-init.aos-animate {
+              font-size: 13px !important;
+              text-align: center;
+            }
+
+            .welocme-text.aos-init.aos-animate {
+              text-align: center;
+            }
+
+            .btn.btn-primary.py-3.px-5.btn-pill.sales-custom-btn {
+              margin-left: 66px;
+            }
+
+            h2.text-black.mb-4.footer-headingh2 {
+              text-align: center;
+          }
+
+            .text-black.mb-4 {
+              text-align: left;
+              font-size: 21px;
+            }
+    
+
+            p.mb-4.local-business-text-sec {
+              padding-left: 15px;
+            }
+
+            a.carousel-control-next {
+            display: none;
+            visibility: hidden;
+            }
+            a.carousel-control-prev {
+           display: none;
+           visibility: hidden;
+            }
+            img.img-fluid.aos-init.footer-pad.aos-animate {
+              padding-top: 40px;
+              text-align: center;
+           }
+           img.img-fluid.aos-init.footer-pad.aos-animate {
+            padding-top: 40px;
+            text-align: center;
+            padding-left: 35px;
+        }
+        h2.text-black.mb-4.video-section-business {
+          padding-left: 15px;
+      }
+
+      html, body {
+        overflow-x: hidden !important;
+    }
+
+    }
